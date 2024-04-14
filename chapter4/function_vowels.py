@@ -7,4 +7,6 @@ def search_for_vowels(word):
         print(vowel)
 
 
+search_for_vowels('Provide')
+
 # str 191

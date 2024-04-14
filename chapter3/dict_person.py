@@ -12,3 +12,4 @@ print()
 
 for k, v in sorted(person3.items()):
     print(k, ':', v)
+print(person3)

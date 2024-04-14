@@ -10,8 +10,8 @@ for letter in word:
         #     found[letter] += 1
         # else:
         #     found[letter] = 1
-
+print(found)
 
 for k, v in sorted(found.items()):
     print(k, 'was found', v, 'time(s).')
-print(found)
+print(sorted(found.items()))

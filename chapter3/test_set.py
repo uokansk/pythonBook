@@ -1,0 +1,12 @@
+vowels = set('aeiou')
+word = 'hello'
+print(vowels)
+word = set(word)
+print(word)
+unionSets = vowels.union(word)
+print(unionSets)
+print(sorted(unionSets))
+d = word.difference(set(vowels))
+print(d)
+i = vowels.intersection(word)
+print(i)
